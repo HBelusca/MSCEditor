@@ -3,14 +3,14 @@
 #define STRINGIZE(s) STRINGIZE2(s)
 
 #define VERSION_MAJOR               1
-#define VERSION_MINOR               12
+#define VERSION_MINOR               0
 
-#define VER_FILE_DESCRIPTION_STR    "My Summer Car Save Editor"
+#define VER_FILE_DESCRIPTION_STR    "Dialog Resize Demo"
 #define VER_FILE_VERSION            VERSION_MAJOR, VERSION_MINOR
 #define VER_FILE_VERSION_STR        STRINGIZE(VERSION_MAJOR)        \
                                     "." STRINGIZE(VERSION_MINOR)
 
-#define VER_PRODUCTNAME_STR         "MSCEditor"
+#define VER_PRODUCTNAME_STR         "DialogResizeDemo"
 #define VER_PRODUCT_VERSION         VER_FILE_VERSION
 #define VER_PRODUCT_VERSION_STR     VER_FILE_VERSION_STR
 #define VER_ORIGINAL_FILENAME_STR   VER_PRODUCTNAME_STR ".exe"

@@ -136,6 +136,7 @@ INT_PTR CALLBACK
 ResizeDialogProc(HWND hDlg, uint32_t uMsg, WPARAM wParam, LPARAM lParam, PVOID * ppStorage)
 {
 	PRESIZE_DIALOG_INFO DialogInfo;
+	UNREFERENCED_PARAMETER(wParam);
 
 	switch( uMsg ) {
 
